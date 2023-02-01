@@ -1,0 +1,248 @@
+.DriBody-main {
+  box-sizing: border-box;
+  padding: 64px 120px;
+}
+
+.DriBody-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1172px;
+  margin: auto;
+}
+
+/* Header */
+
+.DriBodyCon-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DriBodyCon-header--user {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.DriBodyCon-header--user--img {
+  display: inline-block;
+  position: relative;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.DriBodyCon-header--user--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.DriBodyCon-header--user--details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.DriBodyCon-header--user--details .title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.DriBodyCon-header--user--details .actions {
+  width: 100%;
+}
+
+.DriBodyCon-header--user--details .actions * {
+  margin-right: 6px;
+}
+
+.DriBodyCon-header--user--details .actions .profile-message a {
+  color: #ea4c89;
+}
+
+.DriBodyCon-header--actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DriBodyCon-header--actions ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DriBodyCon-header--actions li {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.DriBodyCon-header--actions .save {
+  background: #f3f3f4;
+  color: #0d0c22;
+  margin-right: 16px;
+}
+
+.DriBodyCon-header--actions svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  fill: currentColor;
+}
+
+/* Carousel */
+
+.DriBodyCon-images {
+  margin: 40px -16px 0;
+}
+
+/* Description */
+
+.DriBodyCon-desc {
+  width: 100%;
+  max-width: 768px;
+  color: #3d3d4e;
+  word-break: break-word;
+  margin-top: 56px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  align-self: baseline;
+}
+
+.DriBodyCon-desc p {
+  margin-bottom: 16px;
+}
+
+.DriBodyCon-desc p:last-child {
+  margin-bottom: 0;
+}
+
+.DriBodyCon-desc a {
+  color: #ea4c89;
+}
+
+.DriBodyCon-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.DriBodyCon-contact .avatar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.DriBodyCon-contact .avatar span {
+  width: 100%;
+  border: 1px solid #e7e7e9;
+}
+
+.DriBodyCon-contact .avatar img {
+  width: 72px;
+  height: 72px;
+  margin: 0 24px;
+  border-radius: 50%;
+}
+
+.DriBodyCon-contact .name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 16px;
+  color: #0d0c22;
+}
+
+.DriBodyCon-contact .details {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 400px;
+  margin-top: 8px;
+  color: #3d3d4e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.DriBodyCon-contact .hire svg {
+  width: 13px;
+  height: 13px;
+  margin-top: -3px;
+  margin-right: 2px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+/* Related */
+
+.DriBodyCon-related {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.DriBodyCon-related-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.DriBodyCon-related-title h3 {
+  margin-right: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.DriBodyCon-related-title a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ea4c89;
+}
+
+.DriBodyCon-related-items {
+  margin-top: 16px;
+}
+
+.DriBodyCon-related-items .DriAction {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.DriBodyCon-related-items .DriAction div {
+  margin-right: 10px;
+}
+
+.DriBodyCon-related-items .DriAction a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  color: #6e6d7a;
+  background: #f3f3f4;
+  pointer-events: auto;
+}
+
+.DriBodyCon-related-items .DriAction svg {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  fill: currentColor;
+  vertical-align: middle;
+}

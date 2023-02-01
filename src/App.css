@@ -1,0 +1,27 @@
+@import url("http://fonts.cdnfonts.com/css/neue-haas-grotesk-text");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

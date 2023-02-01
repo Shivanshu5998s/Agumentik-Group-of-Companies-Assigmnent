@@ -1,0 +1,28 @@
+.driAlign-center {
+  align-items: center;
+}
+
+.driPink-btn {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px;
+  transition: color 200ms ease;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #ea4c89;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  appearance: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.driD-flex {
+  display: flex;
+}

@@ -1,0 +1,67 @@
+.DriNav-main {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #e3e3e3;
+}
+
+.DriNav-main * {
+  box-sizing: border-box;
+}
+
+.DriNav-main .DriNav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.DriNav-container .DriNavCon-left {
+  display: flex;
+  align-items: center;
+}
+
+.DriNav-container svg {
+  display: block;
+  margin-right: 16px;
+}
+
+.DriNavCon-left .DriNavCon-left--nav {
+  display: flex;
+  height: 100%;
+}
+
+.DriNavCon-left--nav .DriNavCon-left--nav-item {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px;
+  color: #6e6d7a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.DriNavCon-right {
+  display: flex;
+  align-items: center;
+}
+
+.DriNavCon-right .DriNavCon-right--item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.DriNavCon-right--item svg {
+  color: #9e9ea7;
+  vertical-align: middle;
+  margin-right: 0px;
+}
+.icon-18 {
+  width: 18px;
+  height: 18px;
+}
